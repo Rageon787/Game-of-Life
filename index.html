@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link href="src/style.module.css" rel="stylesheet" />
+    <script type="module" src="/src/main.ts"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header>
+      <h1>Game of Life</h1>
+    </header>
+    <div class="buttons"></div>
+    <div class="grid">
+      <canvas id="canvas" width="500px" height="500px"></canvas>
+    </div>
   </body>
 </html>

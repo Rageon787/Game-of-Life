@@ -11,5 +11,9 @@
   "devDependencies": {
     "typescript": "~5.6.2",
     "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "ef-infinite-canvas": "^0.6.7",
+    "p5": "^1.11.3"
   }
 }
